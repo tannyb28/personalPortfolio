@@ -50,12 +50,12 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          I'm a student at UT Austin studying Biomedical Engineering with a minor 
-          in Computational Science and Engineering. I have experience with full-stack 
-          development, machine learning, data science, 3D modeling, and circuit design.
-          I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm a student at Boston University pursuing my Masters in Computer Science. I 
+          have a background in Biomedical Engineering from my undergrad at UT Austin. I 
+          also have experience with full-stack development, machine learning, data science, 
+          3D modeling, and circuit design. I'm a quick learner and collaborate closely with 
+          clients to create efficient, scalable, and user-friendly solutions that solve
+          real-world problems.
         </motion.p>
       </div>
       <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 '>

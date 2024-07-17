@@ -12,10 +12,10 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
-      `Biomedical Engineer`,
       `Software Developer`,
-      `University of Texas at Austin`,
-      `Class of 2024`
+      `Biomedical Engineer`,
+      `Boston University`,
+      `Masters Student`
       
     ],
     loop: true,
@@ -25,11 +25,11 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#cc5500]" />
-          <div className="w-1 sm:h-80 h-40 orange-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#FF2400]" />
+          <div className="w-1 sm:h-80 h-40 red-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#cc5500]">Tanish</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#FF2400]">Tanish</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 h-[50px]`}>
             {/* I develop a bunch of cool stuff. <br className="sm:block hidden" />
             Check me out! */}
@@ -39,14 +39,14 @@ const Hero = () => {
           <div className='z-20 flex justify-between max-w-[280px] py-4'>
             <div
               onClick={()=>window.open("https://www.linkedin.com/in/tanish-bhowmick","_blank")} 
-              className='z-20 rounded-full bg-[#cc5500] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
+              className='z-20 rounded-full bg-[#FF2400] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
             >
               <FaLinkedinIn />
             </div>
 
             <div
               onClick={()=>window.open("https://www.github.com/tannyb28","_blank")} 
-              className='z-20 rounded-full bg-[#cc5500] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
+              className='z-20 rounded-full bg-[#FF2400] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
             >
               <FaGithub />
             </div>
@@ -57,14 +57,14 @@ const Hero = () => {
                 section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
               }
               } 
-              className='z-20 rounded-full bg-[#cc5500] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
+              className='z-20 rounded-full bg-[#FF2400] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
             >
               <AiOutlineMail />
             </div>
             
             <div
-              onClick={()=>window.open("https://drive.google.com/file/d/116f2AeRVW_qczrjgvUG4QsUGn7XbUY0c/view?usp=sharing","_blank")} 
-              className='z-20 rounded-full bg-[#cc5500] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
+              onClick={()=>window.open("https://drive.google.com/file/d/1ju6F8bou_ThtmS-wwyD3zELeleMuBLe3/view?usp=sharing","_blank")} 
+              className='z-20 rounded-full bg-[#FF2400] shadow-md shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-200'
             >
               <BsFillPersonLinesFill />
             </div>

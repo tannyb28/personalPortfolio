@@ -52,10 +52,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Biomedical Engineer",
-    icon: creator,
-  },
-  {
     title: "Full Stack Developer",
     icon: mobile,
   },
@@ -67,6 +63,10 @@ const services = [
     title: "ML/Data Engineer",
     icon: web,
   },
+  {
+    title: "Biomedical Engineer",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -126,28 +126,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Undergraduate Research Assistant",
+    company_name: "Dynamic Medical Image and Computing Lab",
+    icon: research,
+    iconBg: "#eee",
+    date: "August 2022 - May 2024",
+    points: [
+      "Research lab focused on automating the process of image segmentation on CT-images of the lung as an alternative imaging modality to current lung tumor diagnosis modalities.",
+      "Manually segmented CT-images of the lungs to create training data for the image segmentation model using Matlab.",
+      "Used PyTorch and OpenCV to create a deep neural network that can identify where a lung tumor occurs based on segmented CT-scan training data.",
+    ],
+  },
+  {
     title: "Data Science Intern",
     company_name: "Verato",
     icon: verato,
     iconBg: "#eee",
-    date: "May 2023 - Present",
+    date: "May 2023 - December 2023",
     points: [
       "Evaluating third-party APIs for geolocation data enrichment in a dataset of 400 million patients’ records, resulting in a 98% fill rate in geolocation data.",
       "Architecting a scalable data processing system that reads and analyzes data from Snowflake, enabling geolocation tagging, proximity calculations using geohexing, and location matching at a rate of ∼700K records per second.",
       "Integrating selected APIs into the existing data infrastructure, resulting in enhanced geospatial insights for patient data.",
       "Compiling data queries from Snowflake queries and creating visualizations in a Python web app using Folium and Streamlit."
-    ],
-  },
-  {
-    title: "Undergraduate Research Assistant",
-    company_name: "Dynamic Medical Image and Computing Lab",
-    icon: research,
-    iconBg: "#eee",
-    date: "August 2022 - May 2023",
-    points: [
-      "Research lab focused on automating the process of image segmentation on CT-images of the lung as an alternative imaging modality to current lung tumor diagnosis modalities.",
-      "Manually segmented CT-images of the lungs to create training data for the image segmentation model using Matlab.",
-      "Used PyTorch and OpenCV to create a deep neural network that can identify where a lung tumor occurs based on segmented CT-scan training data.",
     ],
   },
   {
