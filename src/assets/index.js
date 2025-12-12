@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import verato from "./company/verato.png";
 import geobyte from "./company/geobyte.png";
 import research from "./company/research.png"
+import medtronic from "./company/medtronic.png"
 
 import alois from "./alois.png"
 import ambulance from "./ambulance.png"
@@ -72,6 +73,7 @@ export {
   verato,
   geobyte,
   research,
+  medtronic,
   carrent,
   jobit,
   tripguide,

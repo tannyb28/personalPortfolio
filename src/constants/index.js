@@ -23,6 +23,7 @@ import {
   geobyte,
   verato,
   research,
+  medtronic,
   tesla,
   shopify,
   carrent,
@@ -125,6 +126,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Research and Development Intern",
+    company_name: "Medtronic",
+    icon: medtronic,
+    iconBg: "#eee",
+    date: "June 2025 - August 2025",
+    points: [
+      "Analyzed hourly postural data from two patient cohorts to quantify sleep-related circadian rhythm metrics after spinal cord stimulation, linking deviations to patient well-being.",
+      "Designed and implemented a step counter using sliding-window STFT for walk detection and FFT-based step/cadence estimation on accelerometer signals from SCS devices.",
+      "Led a feasibility study with 30 Medtronic employees; algorithm outperformed commercial pedometers, achieving an average error of 6%.",
+    ],
+  },
   {
     title: "Undergraduate Research Assistant",
     company_name: "Dynamic Medical Image and Computing Lab",
